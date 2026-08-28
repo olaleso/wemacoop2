@@ -1,0 +1,16 @@
+{
+  "name": "wemacoop2",
+  "compatibility_date": "2025-01-01",
+  // "main" is where your future server-side code lives (API routes, form
+  // handling, auth, etc). Leave it commented out until you actually have
+  // that file — an empty/missing "main" is fine for a purely static deploy.
+  // "main": "src/worker.js",
+
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+    // Once you add "main" above, you can also set a binding here so your
+    // Worker script can read static files itself if it ever needs to, e.g.:
+    // "binding": "ASSETS"
+  }
+}
